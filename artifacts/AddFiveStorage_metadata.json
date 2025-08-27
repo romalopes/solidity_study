@@ -6,6 +6,31 @@
 	"output": {
 		"abi": [
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "uint256",
+						"name": "oldNumber",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "newFavoriteNumber",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					}
+				],
+				"name": "StoredNumber",
+				"type": "event"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "string",
@@ -142,11 +167,11 @@
 			]
 		},
 		"contracts/Storage/SimpleStorage.sol": {
-			"keccak256": "0x12c7a41d1e6220928ecbabab2cceda1a310492967f9e355d54c22c58095e3652",
+			"keccak256": "0x04ae13fb3ee20d150f2a34ea3d3a732db3029e43ee6090043a80d1fd3007fb30",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://287cd908d4927668b6dd2acf9921c8f8ce51481c8173d509ca86b3ddd637d500",
-				"dweb:/ipfs/QmSLpTr5fQX69RYkb53oNFDCDB5bFWEdPJXaHPb582D2CM"
+				"bzz-raw://e40c4c968434a8fefba212c785b0889d9438d270ad245ae0de155ffe9aa6b408",
+				"dweb:/ipfs/QmNV1gxGFaQZ2MUtfZveUsKacQJg4xkdCrTV8Gh2PdoAKM"
 			]
 		}
 	},
