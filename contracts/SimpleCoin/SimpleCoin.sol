@@ -8,4 +8,4 @@ contract SimpleCoin is ERC20 {
     constructor() ERC20("Simple Coin", "SC") {
         _mint(msg.sender, 100 * 10e18);
     }
-}
+} 
