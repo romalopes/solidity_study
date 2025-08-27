@@ -5,6 +5,7 @@ export default function TxList({ txs }) {
       {txs.map((item) => (
         <div key={item.txHash} className="alert-info mt-5 rounded-xl py-2 px-4">
           <div>
+            <p>Transaction Hash: {item.txHash}</p>
             <p>From: {item.from}</p>
             <p>To: {item.to}</p>
             <p>Amount: {item.amount}</p>
