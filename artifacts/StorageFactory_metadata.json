@@ -1,0 +1,149 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_simple_StorageAddress",
+						"type": "address"
+					}
+				],
+				"name": "addSimpleStorageContractByAddress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "createSimpleStorageContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "listOfSimpleContract",
+				"outputs": [
+					{
+						"internalType": "contract SimpleStorage",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "sFGet",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_simpleStorageAddress",
+						"type": "address"
+					}
+				],
+				"name": "sFGetFromAddress",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageIndex",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_newSimpleStorageNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "sFStore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Storage/StorageFactory.sol": "StorageFactory"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Storage/SimpleStorage.sol": {
+			"keccak256": "0x12c7a41d1e6220928ecbabab2cceda1a310492967f9e355d54c22c58095e3652",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://287cd908d4927668b6dd2acf9921c8f8ce51481c8173d509ca86b3ddd637d500",
+				"dweb:/ipfs/QmSLpTr5fQX69RYkb53oNFDCDB5bFWEdPJXaHPb582D2CM"
+			]
+		},
+		"contracts/Storage/StorageFactory.sol": {
+			"keccak256": "0x3278566b6e02fd2abad36332a24c032543c5e05ea5b02d0224c017cdd229c3f4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://95114e17e6300bf6f321994712080e11bf0687bf22df6aec4f69f862f5e24a59",
+				"dweb:/ipfs/QmbBQui3w191f1G6ocB1ncGXxLQcvoJC9GDzMFAoxNj7E9"
+			]
+		}
+	},
+	"version": 1
+}
